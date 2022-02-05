@@ -18,7 +18,8 @@ main {
 /* map area */
 .map-area {
   margin: 8vh auto 0;
-  
+  position: relative;
+  top: 50px;
 }
 
 
@@ -32,6 +33,8 @@ main {
   display:flex;
   flex-direction:column;
   justify-content:space-evenly;
+  position: relative;
+  top: 50px;
 }
 
 .direction-row {
@@ -50,6 +53,8 @@ main {
   color:white;
   text-align: center;
   justify-content:center;
+  position: relative;
+  top: 50px;
 }
 
 .key-area-h2 {
@@ -62,6 +67,7 @@ main {
   font-size: 3vh;
   margin-bottom: 0;
   margin-top: 0;
+  
 }
 
 .white-wrapper {
@@ -140,6 +146,8 @@ main {
 /* submit area */
 .submit-area {
   margin: 2.5vh auto 0;
+  position: relative;
+  top: 50px;
 }
 
 .black-shadow {
